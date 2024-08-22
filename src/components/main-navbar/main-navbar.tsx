@@ -1,7 +1,8 @@
 'use client'
 import React from "react";
 import classNames from "classnames";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Image} from "@nextui-org/react";
+import Link from "next/link";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem} from "@nextui-org/react";
 import { navItems } from "./main-navbar-data";
 import Contact from "../about/contact";
 
