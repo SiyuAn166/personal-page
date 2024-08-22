@@ -21,28 +21,28 @@ export default function HomePageChatStyle() {
                 "md:left-1/3",
             )}>
 
-                <div className="bg-white p-4 rounded-lg shadow-lg w-11/12 overflow-y-auto flex flex-col">
+                <div className="bg-white dark:bg-slate-900 p-4 rounded-lg shadow-lg w-11/12 overflow-y-auto flex flex-col">
                     <div className="flex flex-col items-center gap-2 border-b border-gray-300">
                         <a target="_blank" href="https://www.linkedin.com/in/siyu-an-bc" className="transition-transform duration-200 hover:scale-110 drop-shadow-lg">
                             <Avatar src="sa.png" size="lg" isBordered color="primary" className="drop-shadow-md " />
                         </a>
-                        <p className="text-gray-600 drop-shadow-lg">Siyu An</p>
+                        <p className="text-gray-600 drop-shadow-lg dark:text-gray-200">Siyu An</p>
                         
                     </div>
                     <div className="flex flex-col gap-5 my-2 min-h-[50vh] text-md md:text-xl">
-                        <div className="bg-stone-200 p-4 rounded-3xl max-w-lg drop-shadow-md">
+                        <div className="bg-stone-200 dark:bg-slate-600 p-4 rounded-3xl max-w-lg drop-shadow-md">
                             Hello! Welcome to my personal page!
                         </div>
-                        <div className="bg-stone-200 p-4 rounded-3xl max-w-xs drop-shadow-md">
+                        <div className="bg-stone-200 dark:bg-slate-600 p-4 rounded-3xl max-w-xs drop-shadow-md">
                             My name is Siyu An.
                         </div>
-                        <div className="bg-stone-200 p-4 rounded-3xl max-w-lg drop-shadow-md">
+                        <div className="bg-stone-200 dark:bg-slate-600 p-4 rounded-3xl max-w-lg drop-shadow-md">
                             I am Software Engineer, Data Engineer and Web Developer.
                         </div>
 
-                        <div className="flex bg-stone-200 p-4 rounded-3xl max-w-lg drop-shadow-md">
+                        <div className="flex bg-stone-200 dark:bg-slate-600 p-4 rounded-3xl max-w-lg drop-shadow-md">
                             <div>
-                                Discover more <Link href="/about" className="text-blue-500 underline hover:text-blue-700 transition duration-300">about me</Link>.
+                                Discover more <Link href="/about" className="text-blue-500 underline hover:text-blue-700 dark:hover:text-blue-300 transition duration-300">about me</Link>.
                             </div>
                         </div>
 
