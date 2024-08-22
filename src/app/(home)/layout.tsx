@@ -8,7 +8,6 @@ export default function HomeLayout({
   }>){
     return (
         <div className={classNames(
-          "dark text-foreground bg-background"
         )}>
             <MainNavBar/>
             {children}
